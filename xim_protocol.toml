@@ -1,0 +1,59 @@
+[opcodes]
+Connect = 1
+ConnectReply = 2
+Disconnect = 3
+DisconnectReply = 4
+
+AuthRequired = 10
+AuthReply = 11
+AuthNext = 12
+AuthSetup = 13
+AuthNg = 14
+
+Error = 20
+
+Open = 30
+OpenReply = 31
+Close = 32
+CloseReply = 33
+RegisterTriggerkeys = 34
+TriggerNotify = 35
+TriggerNotifyReply = 36
+SetEventMask = 37
+EncodingNegotiation = 38
+EncodingNegotiationReply = 39
+QueryExtension = 40
+QueryExtensionReply = 41
+GetImValues = 44
+GetImValuesReply = 45
+
+CreateIc = 50
+CreateIcReply = 51
+DestroyIc = 52
+DestroyIcReply = 53
+SetIcValues = 54
+SetIcValuesReply = 55
+GetIcValues = 56
+GetIcValuesReply = 57
+SetIcFocus = 58
+UnsetIcFocus = 59
+ForwardEvent = 60
+Sync = 61
+SyncReply = 62
+Commit = 63
+ResetIc = 64
+ResetIcReply = 65
+
+Geometry = 70
+StrConversion = 71
+StrConversionReply = 72
+PreeditStart = 73
+PreeditStartReply = 74
+PreeditDraw = 75
+PreeditCaret = 76
+PreeditCaretReply = 77
+PreeditDone = 78
+StatusStart = 79
+StatusDone = 81
+
+Extension = 128
