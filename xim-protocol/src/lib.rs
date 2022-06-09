@@ -11,8 +11,8 @@ pub(crate) mod frame;
 #[rustfmt::skip]
 #[path = "automatically_generated.rs"]
 pub mod protocol;
-pub mod message;
 pub mod connection;
+pub mod message;
 
 pub(crate) fn roundup(val: usize, factor: usize) -> usize {
     (val + factor - 1) / factor * factor
